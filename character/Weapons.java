@@ -28,6 +28,28 @@ public class Weapons  {
 		
 		}
 	
+	// the staff is a magic-based weapon that is a slower weapon than the wand, but it gives higher damage
 	
+	public String getStaff_Name(){
+		return "Staff";
+	}
+	
+	public int getStaff(){
+		weapon.setDamage(30);
+		return weapon.getDamage();
+		
+		}
+	
+	// the wand is a magic-based weapon that is a faster weapon than the staff, but it's weaker
+	
+	public String getWand_Name(){
+		return "Wand";
+	}
+	
+	public int getWand(){
+		weapon.setDamage(15);
+		return weapon.getDamage();
+		
+		}
 	
 }
