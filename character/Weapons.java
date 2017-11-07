@@ -34,7 +34,7 @@ public class Weapons  {
 		return "Staff";
 	}
 	
-	public int getStaff(){
+	public int getStaffDanage(){
 		weapon.setDamage(30);
 		return weapon.getDamage();
 		
@@ -46,7 +46,7 @@ public class Weapons  {
 		return "Wand";
 	}
 	
-	public int getWand(){
+	public int getWandDamage(){
 		weapon.setDamage(15);
 		return weapon.getDamage();
 		
